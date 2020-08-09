@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+
+*.py[cod]
+*.docx
+*.html
+*.txt
+*.zip
+*.xlsx
+.idea/
+.vscode/
