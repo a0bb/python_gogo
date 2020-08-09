@@ -10,14 +10,28 @@ async def download(url):
 
 
 async def download_all(urls):
-    # tasks = [asyncio.ensure_future(download(site)) for site in urls]
-    # await asyncio.gather(*tasks)
-    for url in urls:
-        await download(url)
+    # task 合并之心
+    tasks = [asyncio.ensure_future(download(site)) for site in urls]
+    await asyncio.gather(*tasks)
+    # 循环await
+    # for url in urls:
+    #     await download(url)
 
 
 def main():
     urls = [
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
+        'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
         'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
         'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
         'http://sigma-stable-img.oss-cn-shanghai.aliyuncs.com/founder_dev/%E5%8F%B3%E8%BE%B9%E6%A0%8F.tif',
