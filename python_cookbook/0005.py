@@ -57,11 +57,18 @@ class PriorityQueue:
         return heapq.heappop(self._queue)[-1]
 
 
-# 从下面例子可以看出，如果堆里面的对象是一个sequence类型的对象，则以index=0的元素为最小值的判断依据
-# 详见heappop源码
-heappop_test = [(-1, 'a'), (-5, 'v'), (-9, 'g')]
-heapq.heapify(heappop_test)
-min_tuple = heapq.heappop(heappop_test)
-print(min_tuple)
+# 堆里面对于元组的比较是使用了元组短路的原理，例如：
+class A:
+    ...
 
 
+a = A()
+b = A()
+
+print('*' * 50)
+# 元组的第一位不同
+print((1, 1, a) < (2, 1, b))
+# 元组的第二位不同
+print((1, 1, a) < (1, 2, b))
+# 元组的第三位不同，因为a，b为实例对象，所以比较会报错
+print((1, 2, a) < (1, 2, b))

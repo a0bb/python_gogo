@@ -83,4 +83,6 @@ if __name__ == '__main__':
     phone = "2004-959-559 # 这是一个国外电话号码"
     num = re.sub(r'#.*外', '', phone)
 
-    print(num)
+    from test_package.test_re import re_test
+    re_test.test = 'update'
+    print(re_test.test)
