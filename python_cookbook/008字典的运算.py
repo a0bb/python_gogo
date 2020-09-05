@@ -1,5 +1,7 @@
 """ 字典的运算  """
 
+# 核心： ......
+
 # 首先，一起来了解下一个内置函数的用法 （zip）
 # zip用来把多个对象中对应的元素打包成为一个个元组；input可迭代对象，output迭代器
 a = [1, 2, 3]
@@ -18,6 +20,8 @@ print(f'List zip function case3: {list(case3)}')
 # zip()返回的迭代器只能访问一次，第二次访问会ValueError
 case4 = zip(a, b, c)
 print(min(case4))
+
+
 # print(min(case4))  # ValueError: min() arg is an empty sequence
 
 # 由以上case可以看出，没有配对的对象不会被打包处理
@@ -29,6 +33,8 @@ print(min(case4))
 # 示例
 def square(x):
     return x ** 2
+
+
 case1 = map(square, [1, 2, 3, 4, 5])
 print(case1)
 print(list(case1))
@@ -37,7 +43,6 @@ print(list(case1))
 case2 = map(lambda x: x ** 2, [1, 2, 3, 4, 5])
 print(case2)
 print(list(case2))
-
 
 # 字典的运算
 # 字典运算的核心是把字典转为合适的元组，然后对元组进行各种操作
@@ -59,6 +64,3 @@ print(f'min_prices: {min_price}')
 # 对价格进行排序
 sort_price = sorted(zip(prices.values(), prices.keys()))
 print(f'sort_price: {sort_price}')
-
-
-

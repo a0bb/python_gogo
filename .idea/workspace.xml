@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89242e9c-c8f4-4d80-8331-3cc1e11cbeed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_cookbook/009查找两字典的相同点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_cookbook/010删除序列相同元素并保持顺序.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_cookbook/008字典的运算.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_cookbook/008字典的运算.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +208,7 @@
       <workItem from="1596967959464" duration="9717000" />
       <workItem from="1597195683127" duration="20862000" />
       <workItem from="1598233186273" duration="5078000" />
-      <workItem from="1598498662807" duration="18735000" />
+      <workItem from="1598498662807" duration="21423000" />
     </task>
     <servers />
   </component>
