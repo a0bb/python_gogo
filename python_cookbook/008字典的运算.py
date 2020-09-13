@@ -20,8 +20,6 @@ print(f'List zip function case3: {list(case3)}')
 # zip()返回的迭代器只能访问一次，第二次访问会ValueError
 case4 = zip(a, b, c)
 print(min(case4))
-
-
 # print(min(case4))  # ValueError: min() arg is an empty sequence
 
 # 由以上case可以看出，没有配对的对象不会被打包处理
