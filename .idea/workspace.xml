@@ -20,47 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89242e9c-c8f4-4d80-8331-3cc1e11cbeed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/myarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_cookbook/011命名切片.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_cookbook/012序列中出现次数最多的元素.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/algorithm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/algorithm/maopao.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/maopao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/mock_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/mock_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/moshu.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/moshu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/out_file/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/out_file/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/out_file/io_out.json" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/out_file/io_out.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/test_async_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/test_async_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/test_async_cancel.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/test_async_cancel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/test_asyncio_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/test_asyncio_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/test_asyncio_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/test_asyncio_05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/test_exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/test_exception.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/test_mianxiang.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/test_mianxiang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/test_threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/test_threading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/python_xiao_J/ttttt.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/python_xiao_J/ttttt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_001_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_001_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_002_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_002_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_003_if_for_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_003_if_for_while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_004_if_for_while_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_004_if_for_while_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_005_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_005_except.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_006_bibao.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_006_bibao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_007_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_007_lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_008_oop_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_008_oop_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_009_oop_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_009_oop_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_010_oop_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_010_oop_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_011_dayi.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_011_dayi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_012_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_012_compare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_013_decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_013_decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_014_metaclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_014_metaclass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_015_processing_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_015_processing_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_016_async_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_016_async_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/test_test/test_017_async_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/test_test/test_017_async_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_cookbook/010删除序列相同元素并保持顺序.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_cookbook/010删除序列相同元素并保持顺序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/myarray.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,29 +67,7 @@
       <recent name="$PROJECT_DIR$/test_package/test_pil" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.012序列中出现次数最多的元素">
-    <configuration name="008字典的运算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_gogo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_cookbook" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_cookbook/008字典的运算.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.myarray">
     <configuration name="009查找两字典的相同点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_gogo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,13 +156,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="myarray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_gogo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/myarray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.myarray" />
         <item itemvalue="Python.012序列中出现次数最多的元素" />
         <item itemvalue="Python.011命名切片" />
         <item itemvalue="Python.010删除序列相同元素并保持顺序" />
         <item itemvalue="Python.009查找两字典的相同点" />
-        <item itemvalue="Python.008字典的运算" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +215,7 @@
       <workItem from="1602234730903" duration="114000" />
       <workItem from="1603103673106" duration="10433000" />
       <workItem from="1603681395407" duration="4878000" />
-      <workItem from="1603794681596" duration="11928000" />
+      <workItem from="1603794681596" duration="20971000" />
     </task>
     <servers />
   </component>
@@ -286,77 +247,77 @@
       <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state x="778" y="280" key="FileChooserDialogImpl/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595561824254" />
-    <state width="1600" height="246" key="GridCell.Tab.0.bottom" timestamp="1604595861434">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="305" key="GridCell.Tab.0.bottom" timestamp="1604884671554">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="268" key="GridCell.Tab.0.bottom/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571331954" />
     <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597073165115" />
     <state width="1600" height="243" key="GridCell.Tab.0.bottom/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992727" />
-    <state width="1600" height="246" key="GridCell.Tab.0.bottom/0.23.1680.989@0.23.1680.989" timestamp="1604595861434" />
+    <state width="1600" height="186" key="GridCell.Tab.0.bottom/0.23.1680.989@0.23.1680.989" timestamp="1604842799820" />
     <state width="1565" height="330" key="GridCell.Tab.0.bottom/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
-    <state width="1711" height="254" key="GridCell.Tab.0.bottom/0.23.1920.1019@0.23.1920.1019" timestamp="1604542720024" />
+    <state width="1711" height="305" key="GridCell.Tab.0.bottom/0.23.1920.1019@0.23.1920.1019" timestamp="1604884671554" />
     <state width="1600" height="240" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1600" height="246" key="GridCell.Tab.0.center" timestamp="1604595861434">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="305" key="GridCell.Tab.0.center" timestamp="1604884671553">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="268" key="GridCell.Tab.0.center/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571331954" />
     <state width="1638" height="260" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597073165114" />
     <state width="1600" height="243" key="GridCell.Tab.0.center/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992726" />
-    <state width="1600" height="246" key="GridCell.Tab.0.center/0.23.1680.989@0.23.1680.989" timestamp="1604595861434" />
+    <state width="1600" height="186" key="GridCell.Tab.0.center/0.23.1680.989@0.23.1680.989" timestamp="1604842799819" />
     <state width="1565" height="330" key="GridCell.Tab.0.center/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
-    <state width="1711" height="254" key="GridCell.Tab.0.center/0.23.1920.1019@0.23.1920.1019" timestamp="1604542720023" />
+    <state width="1711" height="305" key="GridCell.Tab.0.center/0.23.1920.1019@0.23.1920.1019" timestamp="1604884671553" />
     <state width="1600" height="240" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1600" height="246" key="GridCell.Tab.0.left" timestamp="1604595861433">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="305" key="GridCell.Tab.0.left" timestamp="1604884671553">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="268" key="GridCell.Tab.0.left/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571331953" />
     <state width="1638" height="260" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597073165113" />
     <state width="1600" height="243" key="GridCell.Tab.0.left/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992725" />
-    <state width="1600" height="246" key="GridCell.Tab.0.left/0.23.1680.989@0.23.1680.989" timestamp="1604595861433" />
+    <state width="1600" height="186" key="GridCell.Tab.0.left/0.23.1680.989@0.23.1680.989" timestamp="1604842799819" />
     <state width="1565" height="330" key="GridCell.Tab.0.left/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817947" />
-    <state width="1711" height="254" key="GridCell.Tab.0.left/0.23.1920.1019@0.23.1920.1019" timestamp="1604542720022" />
+    <state width="1711" height="305" key="GridCell.Tab.0.left/0.23.1920.1019@0.23.1920.1019" timestamp="1604884671553" />
     <state width="1600" height="240" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1600" height="246" key="GridCell.Tab.0.right" timestamp="1604595861434">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="305" key="GridCell.Tab.0.right" timestamp="1604884671554">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="268" key="GridCell.Tab.0.right/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571331954" />
     <state width="1638" height="260" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597073165114" />
     <state width="1600" height="243" key="GridCell.Tab.0.right/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992726" />
-    <state width="1600" height="246" key="GridCell.Tab.0.right/0.23.1680.989@0.23.1680.989" timestamp="1604595861434" />
+    <state width="1600" height="186" key="GridCell.Tab.0.right/0.23.1680.989@0.23.1680.989" timestamp="1604842799820" />
     <state width="1565" height="330" key="GridCell.Tab.0.right/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
-    <state width="1711" height="254" key="GridCell.Tab.0.right/0.23.1920.1019@0.23.1920.1019" timestamp="1604542720024" />
+    <state width="1711" height="305" key="GridCell.Tab.0.right/0.23.1920.1019@0.23.1920.1019" timestamp="1604884671554" />
     <state width="1600" height="240" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1600" height="329" key="GridCell.Tab.1.bottom" timestamp="1604595056992">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="338" key="GridCell.Tab.1.bottom" timestamp="1604884240869">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="331" key="GridCell.Tab.1.bottom/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571160470" />
     <state width="1600" height="329" key="GridCell.Tab.1.bottom/0.23.1680.989@0.23.1680.989" timestamp="1604595056992" />
     <state width="1565" height="330" key="GridCell.Tab.1.bottom/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
-    <state width="1600" height="341" key="GridCell.Tab.1.bottom/0.23.1920.1019@0.23.1920.1019" timestamp="1603105096641" />
+    <state width="1711" height="338" key="GridCell.Tab.1.bottom/0.23.1920.1019@0.23.1920.1019" timestamp="1604884240869" />
     <state width="1600" height="341" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
-    <state width="1600" height="329" key="GridCell.Tab.1.center" timestamp="1604595056991">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="338" key="GridCell.Tab.1.center" timestamp="1604884240869">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="331" key="GridCell.Tab.1.center/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571160470" />
     <state width="1600" height="329" key="GridCell.Tab.1.center/0.23.1680.989@0.23.1680.989" timestamp="1604595056991" />
     <state width="1565" height="330" key="GridCell.Tab.1.center/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
-    <state width="1600" height="341" key="GridCell.Tab.1.center/0.23.1920.1019@0.23.1920.1019" timestamp="1603105096640" />
+    <state width="1711" height="338" key="GridCell.Tab.1.center/0.23.1920.1019@0.23.1920.1019" timestamp="1604884240869" />
     <state width="1600" height="341" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
-    <state width="1600" height="329" key="GridCell.Tab.1.left" timestamp="1604595056991">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="338" key="GridCell.Tab.1.left" timestamp="1604884240868">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="331" key="GridCell.Tab.1.left/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571160470" />
     <state width="1600" height="329" key="GridCell.Tab.1.left/0.23.1680.989@0.23.1680.989" timestamp="1604595056991" />
     <state width="1565" height="330" key="GridCell.Tab.1.left/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
-    <state width="1600" height="341" key="GridCell.Tab.1.left/0.23.1920.1019@0.23.1920.1019" timestamp="1603105096640" />
+    <state width="1711" height="338" key="GridCell.Tab.1.left/0.23.1920.1019@0.23.1920.1019" timestamp="1604884240868" />
     <state width="1600" height="341" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
-    <state width="1600" height="329" key="GridCell.Tab.1.right" timestamp="1604595056991">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state width="1711" height="338" key="GridCell.Tab.1.right" timestamp="1604884240869">
+      <screen x="0" y="23" width="1920" height="1019" />
     </state>
     <state width="1621" height="331" key="GridCell.Tab.1.right/-1680.231.1680.1027/0.23.1920.1019@0.23.1920.1019" timestamp="1595571160470" />
     <state width="1600" height="329" key="GridCell.Tab.1.right/0.23.1680.989@0.23.1680.989" timestamp="1604595056991" />
     <state width="1565" height="330" key="GridCell.Tab.1.right/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
-    <state width="1600" height="341" key="GridCell.Tab.1.right/0.23.1920.1019@0.23.1920.1019" timestamp="1603105096640" />
+    <state width="1711" height="338" key="GridCell.Tab.1.right/0.23.1920.1019@0.23.1920.1019" timestamp="1604884240869" />
     <state width="1600" height="341" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
     <state x="498" y="157" key="SettingsEditor" timestamp="1596550831760">
       <screen x="0" y="23" width="1920" height="1019" />
@@ -384,6 +345,7 @@
     <SUITE FILE_PATH="coverage/python_gogo$test_async.coverage" NAME="test_async Coverage Results" MODIFIED="1596160279536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_laboratory/python_xiao_J" />
     <SUITE FILE_PATH="coverage/python_gogo$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1598443056119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_package/test_re" />
     <SUITE FILE_PATH="coverage/python_gogo$008.coverage" NAME="008字典的运算 Coverage Results" MODIFIED="1599320907204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
+    <SUITE FILE_PATH="coverage/python_gogo$myarray.coverage" NAME="myarray Coverage Results" MODIFIED="1604884671547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
     <SUITE FILE_PATH="coverage/python_gogo$test_async_05.coverage" NAME="test_async_05 Coverage Results" MODIFIED="1596160677168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_laboratory/python_xiao_J" />
     <SUITE FILE_PATH="coverage/python_gogo$010.coverage" NAME="010删除序列相同元素并保持顺序 Coverage Results" MODIFIED="1603158732689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
   </component>
