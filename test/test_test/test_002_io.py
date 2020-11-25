@@ -14,10 +14,10 @@ params = {
     'amount': 23
 }
 
-with open('../out_file/io_out.json', 'w') as fp:
+with open('../../geekbang/output_file/io_out.json', 'w') as fp:
     out_str = ujson.dump(params, fp)
 print(f'{type(out_str)}\n{out_str}')
 
-with open('../out_file/io_out.json', 'r') as fp:
+with open('../../geekbang/output_file/io_out.json', 'r') as fp:
     in_dct = ujson.load(fp)
 print(f'{type(in_dct)}\n{in_dct}')

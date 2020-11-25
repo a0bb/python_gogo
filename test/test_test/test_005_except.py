@@ -21,6 +21,6 @@
 
 
 import ujson
-with open('../mock_data.json', 'r', encoding='utf-8') as fp:
+with open('../../geekbang/mock_data.json', 'r', encoding='utf-8') as fp:
     mock_data = ujson.load(fp)
     print(mock_data['bind_info'])
