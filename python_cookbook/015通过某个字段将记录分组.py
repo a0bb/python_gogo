@@ -1,12 +1,12 @@
 rows = [
-    {'address': '5412 N CLARK', 'date': '07/01/2012'},
-    {'address': '5148 N CLARK', 'date': '07/04/2012'},
-    {'address': '5800 E 58TH', 'date': '07/02/2012'},
-    {'address': '2122 N CLARK', 'date': '07/03/2012'},
-    {'address': '5645 N RAVENSWOOD', 'date': '07/02/2012'},
-    {'address': '1060 W ADDISON', 'date': '07/02/2012'},
-    {'address': '4801 N BROADWAY', 'date': '07/01/2012'},
-    {'address': '1039 W GRANVILLE', 'date': '07/04/2012'},
+    {'name': 'tomato', 'type': 'vegetable'},
+    {'name': 'chicken', 'type': 'meat'},
+    {'name': 'cucumber', 'type': 'vegetable'},
+    {'name': 'apple', 'type': 'fruit'},
+    {'name': 'banana', 'type': 'fruit'},
+    {'name': 'pepper', 'type': 'vegetable'},
+    {'name': 'watermelon', 'type': 'fruit'},
+    {'name': 'beef', 'type': 'meat'},
 ]
 
 # 注意事项：先排序再分组
@@ -16,8 +16,8 @@ from operator import itemgetter
 from itertools import groupby
 
 
-new_rows = sorted(rows, key=itemgetter('date'))
-group_rows = groupby(new_rows, key=itemgetter('date'))
+new_rows = sorted(rows, key=itemgetter('type'))
+group_rows = groupby(new_rows, key=itemgetter('type'))
 # 从下面可以看出，返回的是一个迭代器对象
 print(f'>>>type: {type(group_rows)}')
 print(f'>>>group_rows: {group_rows}')
@@ -28,10 +28,10 @@ print(f'>>>list: {list(group_rows)}')
 
 # 按照分组来输出
 print('*' * 100)
-# 这里为什么不直接使用group_rows，而是又重写了一次groupby(new_rows, key=itemgetter('date'))
+# 这里为什么不直接使用group_rows，而是又重写了一次groupby(new_rows, key=itemgetter('type'))
 # 因为，迭代器经过list(group_rows)就被消耗掉了
-for date, items in groupby(new_rows, key=itemgetter('date')):
-    print(date)
+for type, items in groupby(new_rows, key=itemgetter('type')):
+    print(type)
     for item in items:
         print(f'  {item}')
 
@@ -58,4 +58,5 @@ def group_02(rows, key):
 
 
 if __name__ == '__main__':
-    print(group_02(rows, 'date'))
+    print(group_02(rows, 'type'))
+    print(group_02(rows, 'type'))
