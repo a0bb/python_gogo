@@ -22,9 +22,9 @@ class MyArray:
     def __len__(self) -> int:
         return len(self._data)
 
-    # def __iter__(self):
-    #     for item in self._data:
-    #         yield item
+    def __iter__(self):
+        for item in self._data:
+            yield item
 
     def find(self, index: int) -> object:
         try:

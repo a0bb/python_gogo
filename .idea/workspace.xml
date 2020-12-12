@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89242e9c-c8f4-4d80-8331-3cc1e11cbeed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array/array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package/test_datetime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package/test_datetime/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist/LRUCache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbang/output_file/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbang/output_file/io_out.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_cookbook/017字典推导式.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_cookbook/017字典推导式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array/myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array/myarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/test_datetime/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/test_datetime/t1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,28 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.t1">
-    <configuration name="016过滤序列元素" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_gogo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_cookbook" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_cookbook/016过滤序列元素.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="017字典推导式 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_gogo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +111,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_cookbook/017字典推导式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myarray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_gogo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array/myarray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,10 +188,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.t1" />
+        <item itemvalue="Python.myarray" />
         <item itemvalue="Python.017字典推导式 (1)" />
         <item itemvalue="Python.017字典推导式" />
         <item itemvalue="Python.test01" />
-        <item itemvalue="Python.016过滤序列元素" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +229,7 @@
       <workItem from="1606111981734" duration="22038000" />
       <workItem from="1606919387069" duration="199000" />
       <workItem from="1607047586136" duration="10000" />
-      <workItem from="1607352760805" duration="7495000" />
+      <workItem from="1607352760805" duration="13722000" />
     </task>
     <servers />
   </component>
@@ -265,7 +262,7 @@
       <screen x="0" y="23" width="1680" height="989" />
     </state>
     <state width="711" height="466" key="DebuggerActiveHint/0.23.1680.989@0.23.1680.989" timestamp="1604593907099" />
-    <state width="1478" height="210" key="GridCell.Tab.0.bottom" timestamp="1607616362061">
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom" timestamp="1607793027081">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1600" height="243" key="GridCell.Tab.0.bottom/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992727" />
@@ -273,11 +270,11 @@
     <state width="1565" height="330" key="GridCell.Tab.0.bottom/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
     <state width="1711" height="380" key="GridCell.Tab.0.bottom/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832191" />
     <state width="1600" height="240" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1478" height="210" key="GridCell.Tab.0.bottom/0.25.1680.980@0.25.1680.980" timestamp="1607616362061" />
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.25.1680.980@0.25.1680.980" timestamp="1607793027081" />
     <state width="1638" height="209" key="GridCell.Tab.0.bottom/0.25.1680.981@0.25.1680.981" timestamp="1605971013643" />
-    <state width="1878" height="219" key="GridCell.Tab.0.bottom/0.25.1920.1010@0.25.1920.1010" timestamp="1607562104667" />
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500177" />
     <state width="1878" height="209" key="GridCell.Tab.0.bottom/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629005" />
-    <state width="1478" height="210" key="GridCell.Tab.0.center" timestamp="1607616362060">
+    <state width="1638" height="210" key="GridCell.Tab.0.center" timestamp="1607793027081">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1600" height="243" key="GridCell.Tab.0.center/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992726" />
@@ -285,11 +282,11 @@
     <state width="1565" height="330" key="GridCell.Tab.0.center/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
     <state width="1711" height="380" key="GridCell.Tab.0.center/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832190" />
     <state width="1600" height="240" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1478" height="210" key="GridCell.Tab.0.center/0.25.1680.980@0.25.1680.980" timestamp="1607616362060" />
+    <state width="1638" height="210" key="GridCell.Tab.0.center/0.25.1680.980@0.25.1680.980" timestamp="1607793027081" />
     <state width="1638" height="209" key="GridCell.Tab.0.center/0.25.1680.981@0.25.1680.981" timestamp="1605971013642" />
-    <state width="1878" height="219" key="GridCell.Tab.0.center/0.25.1920.1010@0.25.1920.1010" timestamp="1607562104667" />
+    <state width="1638" height="210" key="GridCell.Tab.0.center/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500175" />
     <state width="1878" height="209" key="GridCell.Tab.0.center/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629002" />
-    <state width="1478" height="210" key="GridCell.Tab.0.left" timestamp="1607616362060">
+    <state width="1638" height="210" key="GridCell.Tab.0.left" timestamp="1607793027080">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1600" height="243" key="GridCell.Tab.0.left/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992725" />
@@ -297,11 +294,11 @@
     <state width="1565" height="330" key="GridCell.Tab.0.left/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817947" />
     <state width="1711" height="380" key="GridCell.Tab.0.left/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832189" />
     <state width="1600" height="240" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1478" height="210" key="GridCell.Tab.0.left/0.25.1680.980@0.25.1680.980" timestamp="1607616362060" />
+    <state width="1638" height="210" key="GridCell.Tab.0.left/0.25.1680.980@0.25.1680.980" timestamp="1607793027080" />
     <state width="1638" height="209" key="GridCell.Tab.0.left/0.25.1680.981@0.25.1680.981" timestamp="1605971013642" />
-    <state width="1878" height="219" key="GridCell.Tab.0.left/0.25.1920.1010@0.25.1920.1010" timestamp="1607562104666" />
+    <state width="1638" height="210" key="GridCell.Tab.0.left/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500174" />
     <state width="1878" height="209" key="GridCell.Tab.0.left/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629000" />
-    <state width="1478" height="210" key="GridCell.Tab.0.right" timestamp="1607616362061">
+    <state width="1638" height="210" key="GridCell.Tab.0.right" timestamp="1607793027081">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1600" height="243" key="GridCell.Tab.0.right/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992726" />
@@ -309,9 +306,9 @@
     <state width="1565" height="330" key="GridCell.Tab.0.right/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
     <state width="1711" height="380" key="GridCell.Tab.0.right/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832190" />
     <state width="1600" height="240" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1478" height="210" key="GridCell.Tab.0.right/0.25.1680.980@0.25.1680.980" timestamp="1607616362061" />
+    <state width="1638" height="210" key="GridCell.Tab.0.right/0.25.1680.980@0.25.1680.980" timestamp="1607793027081" />
     <state width="1638" height="209" key="GridCell.Tab.0.right/0.25.1680.981@0.25.1680.981" timestamp="1605971013643" />
-    <state width="1878" height="219" key="GridCell.Tab.0.right/0.25.1920.1010@0.25.1920.1010" timestamp="1607562104667" />
+    <state width="1638" height="210" key="GridCell.Tab.0.right/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500176" />
     <state width="1878" height="209" key="GridCell.Tab.0.right/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629004" />
     <state width="1638" height="305" key="GridCell.Tab.1.bottom" timestamp="1606906125339">
       <screen x="0" y="25" width="1920" height="1010" />
@@ -374,7 +371,7 @@
     <SUITE FILE_PATH="coverage/python_gogo$0003.coverage" NAME="0003 Coverage Results" MODIFIED="1597245679398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$11_23.coverage" NAME="11_23 Coverage Results" MODIFIED="1606095839840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/daily" />
     <SUITE FILE_PATH="coverage/python_gogo$015.coverage" NAME="015通过某个字段将记录分组 Coverage Results" MODIFIED="1606316305005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
-    <SUITE FILE_PATH="coverage/python_gogo$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1607616362053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package/test_datetime" />
+    <SUITE FILE_PATH="coverage/python_gogo$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1607793027073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package/test_datetime" />
     <SUITE FILE_PATH="coverage/python_gogo$013.coverage" NAME="013通过某个关键字排序一个字典列表 Coverage Results" MODIFIED="1605196279693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$010.coverage" NAME="010删除序列相同元素并保持顺序 Coverage Results" MODIFIED="1603158732689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$017.coverage" NAME="017字典推导式 Coverage Results" MODIFIED="1606904002936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
@@ -388,7 +385,7 @@
     <SUITE FILE_PATH="coverage/python_gogo$connector.coverage" NAME="connector Coverage Results" MODIFIED="1596159209152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.virtualenvs/test_util/lib/python3.6/site-packages/aiohttp" />
     <SUITE FILE_PATH="coverage/python_gogo$test_async.coverage" NAME="test_async Coverage Results" MODIFIED="1596160279536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_laboratory/python_xiao_J" />
     <SUITE FILE_PATH="coverage/python_gogo$008.coverage" NAME="008字典的运算 Coverage Results" MODIFIED="1599320907204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
-    <SUITE FILE_PATH="coverage/python_gogo$myarray.coverage" NAME="myarray Coverage Results" MODIFIED="1605971013635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array" />
+    <SUITE FILE_PATH="coverage/python_gogo$myarray.coverage" NAME="myarray Coverage Results" MODIFIED="1607647500166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array" />
     <SUITE FILE_PATH="coverage/python_gogo$test_async_05.coverage" NAME="test_async_05 Coverage Results" MODIFIED="1596160677168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_laboratory/python_xiao_J" />
   </component>
 </project>
