@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89242e9c-c8f4-4d80-8331-3cc1e11cbeed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist/LRUCache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist/single_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/07_linkedlist/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/07_linkedlist/linked_list_algo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/08_stack/linked_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_cookbook/018映射名称到序列元素.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array/myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/05_array/myarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist/LRUCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist/LRUCache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/test_datetime/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/test_datetime/t1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +78,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.t1">
-    <configuration name="017字典推导式 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.linked_stack">
+    <configuration name="018映射名称到序列元素" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_gogo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +92,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_cookbook/017字典推导式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_cookbook/018映射名称到序列元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="017字典推导式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LRUCache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_gogo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,12 +109,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_cookbook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_cookbook/017字典推导式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist/LRUCache.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linked_stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_gogo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekbang/algorithm_beauty/08_stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekbang/algorithm_beauty/08_stack/linked_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,35 +189,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_gogo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/daily" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/daily/test01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linked_stack" />
+        <item itemvalue="Python.018映射名称到序列元素" />
+        <item itemvalue="Python.LRUCache" />
         <item itemvalue="Python.t1" />
         <item itemvalue="Python.myarray" />
-        <item itemvalue="Python.017字典推导式 (1)" />
-        <item itemvalue="Python.017字典推导式" />
-        <item itemvalue="Python.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +233,9 @@
       <workItem from="1606111981734" duration="22038000" />
       <workItem from="1606919387069" duration="199000" />
       <workItem from="1607047586136" duration="10000" />
-      <workItem from="1607352760805" duration="13722000" />
+      <workItem from="1607352760805" duration="33590000" />
+      <workItem from="1608534965662" duration="1000000" />
+      <workItem from="1608606868806" duration="7855000" />
     </task>
     <servers />
   </component>
@@ -262,100 +268,88 @@
       <screen x="0" y="23" width="1680" height="989" />
     </state>
     <state width="711" height="466" key="DebuggerActiveHint/0.23.1680.989@0.23.1680.989" timestamp="1604593907099" />
-    <state width="1638" height="210" key="GridCell.Tab.0.bottom" timestamp="1607793027081">
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom" timestamp="1608684661224">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
-    <state width="1600" height="243" key="GridCell.Tab.0.bottom/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992727" />
     <state width="1711" height="213" key="GridCell.Tab.0.bottom/0.23.1680.989@0.23.1680.989" timestamp="1605630997698" />
-    <state width="1565" height="330" key="GridCell.Tab.0.bottom/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
     <state width="1711" height="380" key="GridCell.Tab.0.bottom/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832191" />
     <state width="1600" height="240" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.25.1680.980@0.25.1680.980" timestamp="1607793027081" />
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.25.1680.980@0.25.1680.980" timestamp="1608684661224" />
     <state width="1638" height="209" key="GridCell.Tab.0.bottom/0.25.1680.981@0.25.1680.981" timestamp="1605971013643" />
-    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500177" />
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.25.1920.1010@0.25.1920.1010" timestamp="1608532742146" />
     <state width="1878" height="209" key="GridCell.Tab.0.bottom/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629005" />
-    <state width="1638" height="210" key="GridCell.Tab.0.center" timestamp="1607793027081">
+    <state width="1638" height="210" key="GridCell.Tab.0.center" timestamp="1608684661223">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
-    <state width="1600" height="243" key="GridCell.Tab.0.center/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992726" />
     <state width="1711" height="213" key="GridCell.Tab.0.center/0.23.1680.989@0.23.1680.989" timestamp="1605630997698" />
-    <state width="1565" height="330" key="GridCell.Tab.0.center/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
     <state width="1711" height="380" key="GridCell.Tab.0.center/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832190" />
     <state width="1600" height="240" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1638" height="210" key="GridCell.Tab.0.center/0.25.1680.980@0.25.1680.980" timestamp="1607793027081" />
+    <state width="1638" height="210" key="GridCell.Tab.0.center/0.25.1680.980@0.25.1680.980" timestamp="1608684661223" />
     <state width="1638" height="209" key="GridCell.Tab.0.center/0.25.1680.981@0.25.1680.981" timestamp="1605971013642" />
-    <state width="1638" height="210" key="GridCell.Tab.0.center/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500175" />
+    <state width="1638" height="210" key="GridCell.Tab.0.center/0.25.1920.1010@0.25.1920.1010" timestamp="1608532742144" />
     <state width="1878" height="209" key="GridCell.Tab.0.center/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629002" />
-    <state width="1638" height="210" key="GridCell.Tab.0.left" timestamp="1607793027080">
+    <state width="1638" height="210" key="GridCell.Tab.0.left" timestamp="1608684661223">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
-    <state width="1600" height="243" key="GridCell.Tab.0.left/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992725" />
     <state width="1711" height="213" key="GridCell.Tab.0.left/0.23.1680.989@0.23.1680.989" timestamp="1605630997697" />
-    <state width="1565" height="330" key="GridCell.Tab.0.left/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817947" />
     <state width="1711" height="380" key="GridCell.Tab.0.left/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832189" />
     <state width="1600" height="240" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1638" height="210" key="GridCell.Tab.0.left/0.25.1680.980@0.25.1680.980" timestamp="1607793027080" />
+    <state width="1638" height="210" key="GridCell.Tab.0.left/0.25.1680.980@0.25.1680.980" timestamp="1608684661223" />
     <state width="1638" height="209" key="GridCell.Tab.0.left/0.25.1680.981@0.25.1680.981" timestamp="1605971013642" />
-    <state width="1638" height="210" key="GridCell.Tab.0.left/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500174" />
+    <state width="1638" height="210" key="GridCell.Tab.0.left/0.25.1920.1010@0.25.1920.1010" timestamp="1608532742143" />
     <state width="1878" height="209" key="GridCell.Tab.0.left/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629000" />
-    <state width="1638" height="210" key="GridCell.Tab.0.right" timestamp="1607793027081">
+    <state width="1638" height="210" key="GridCell.Tab.0.right" timestamp="1608684661223">
       <screen x="0" y="25" width="1680" height="980" />
     </state>
-    <state width="1600" height="243" key="GridCell.Tab.0.right/0.23.1642.1027@0.23.1642.1027" timestamp="1600007992726" />
     <state width="1711" height="213" key="GridCell.Tab.0.right/0.23.1680.989@0.23.1680.989" timestamp="1605630997698" />
-    <state width="1565" height="330" key="GridCell.Tab.0.right/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817948" />
     <state width="1711" height="380" key="GridCell.Tab.0.right/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832190" />
     <state width="1600" height="240" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358410" />
-    <state width="1638" height="210" key="GridCell.Tab.0.right/0.25.1680.980@0.25.1680.980" timestamp="1607793027081" />
+    <state width="1638" height="210" key="GridCell.Tab.0.right/0.25.1680.980@0.25.1680.980" timestamp="1608684661223" />
     <state width="1638" height="209" key="GridCell.Tab.0.right/0.25.1680.981@0.25.1680.981" timestamp="1605971013643" />
-    <state width="1638" height="210" key="GridCell.Tab.0.right/0.25.1920.1010@0.25.1920.1010" timestamp="1607647500176" />
+    <state width="1638" height="210" key="GridCell.Tab.0.right/0.25.1920.1010@0.25.1920.1010" timestamp="1608532742145" />
     <state width="1878" height="209" key="GridCell.Tab.0.right/139.1105.1680.980/0.25.1920.1055@0.25.1920.1055" timestamp="1606111629004" />
-    <state width="1638" height="305" key="GridCell.Tab.1.bottom" timestamp="1606906125339">
-      <screen x="0" y="25" width="1920" height="1010" />
+    <state width="1638" height="304" key="GridCell.Tab.1.bottom" timestamp="1608654773205">
+      <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1711" height="328" key="GridCell.Tab.1.bottom/0.23.1680.989@0.23.1680.989" timestamp="1605277160590" />
-    <state width="1565" height="330" key="GridCell.Tab.1.bottom/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
     <state width="1711" height="380" key="GridCell.Tab.1.bottom/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832192" />
     <state width="1600" height="341" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
-    <state width="1638" height="305" key="GridCell.Tab.1.bottom/0.25.1680.980@0.25.1680.980" timestamp="1606641083139" />
+    <state width="1638" height="304" key="GridCell.Tab.1.bottom/0.25.1680.980@0.25.1680.980" timestamp="1608654773205" />
     <state width="1638" height="305" key="GridCell.Tab.1.bottom/0.25.1920.1010@0.25.1920.1010" timestamp="1606906125339" />
-    <state width="1638" height="305" key="GridCell.Tab.1.center" timestamp="1606906125338">
-      <screen x="0" y="25" width="1920" height="1010" />
+    <state width="1638" height="304" key="GridCell.Tab.1.center" timestamp="1608654773205">
+      <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1711" height="328" key="GridCell.Tab.1.center/0.23.1680.989@0.23.1680.989" timestamp="1605277160589" />
-    <state width="1565" height="330" key="GridCell.Tab.1.center/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
     <state width="1711" height="380" key="GridCell.Tab.1.center/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832191" />
     <state width="1600" height="341" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
-    <state width="1638" height="305" key="GridCell.Tab.1.center/0.25.1680.980@0.25.1680.980" timestamp="1606641083139" />
+    <state width="1638" height="304" key="GridCell.Tab.1.center/0.25.1680.980@0.25.1680.980" timestamp="1608654773205" />
     <state width="1638" height="305" key="GridCell.Tab.1.center/0.25.1920.1010@0.25.1920.1010" timestamp="1606906125338" />
-    <state width="1638" height="305" key="GridCell.Tab.1.left" timestamp="1606906125338">
-      <screen x="0" y="25" width="1920" height="1010" />
+    <state width="1638" height="304" key="GridCell.Tab.1.left" timestamp="1608654773204">
+      <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1711" height="328" key="GridCell.Tab.1.left/0.23.1680.989@0.23.1680.989" timestamp="1605277160589" />
-    <state width="1565" height="330" key="GridCell.Tab.1.left/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
     <state width="1711" height="380" key="GridCell.Tab.1.left/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832191" />
     <state width="1600" height="341" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
-    <state width="1638" height="305" key="GridCell.Tab.1.left/0.25.1680.980@0.25.1680.980" timestamp="1606641083139" />
+    <state width="1638" height="304" key="GridCell.Tab.1.left/0.25.1680.980@0.25.1680.980" timestamp="1608654773204" />
     <state width="1638" height="305" key="GridCell.Tab.1.left/0.25.1920.1010@0.25.1920.1010" timestamp="1606906125338" />
-    <state width="1638" height="305" key="GridCell.Tab.1.right" timestamp="1606906125338">
-      <screen x="0" y="25" width="1920" height="1010" />
+    <state width="1638" height="304" key="GridCell.Tab.1.right" timestamp="1608654773205">
+      <screen x="0" y="25" width="1680" height="980" />
     </state>
     <state width="1711" height="328" key="GridCell.Tab.1.right/0.23.1680.989@0.23.1680.989" timestamp="1605277160590" />
-    <state width="1565" height="330" key="GridCell.Tab.1.right/0.23.1882.1057@0.23.1882.1057" timestamp="1599891817949" />
     <state width="1711" height="380" key="GridCell.Tab.1.right/0.23.1920.1019@0.23.1920.1019" timestamp="1605750832192" />
     <state width="1600" height="341" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1603681358407" />
-    <state width="1638" height="305" key="GridCell.Tab.1.right/0.25.1680.980@0.25.1680.980" timestamp="1606641083139" />
+    <state width="1638" height="304" key="GridCell.Tab.1.right/0.25.1680.980@0.25.1680.980" timestamp="1608654773205" />
     <state width="1638" height="305" key="GridCell.Tab.1.right/0.25.1920.1010@0.25.1920.1010" timestamp="1606906125338" />
     <state x="707" y="270" width="602" height="490" key="find.popup" timestamp="1606903896173">
       <screen x="0" y="25" width="1920" height="1010" />
     </state>
     <state x="707" y="270" width="602" height="490" key="find.popup/0.25.1920.1010@0.25.1920.1010" timestamp="1606903896173" />
-    <state x="505" y="241" width="670" height="671" key="search.everywhere.popup" timestamp="1606648826893">
-      <screen x="0" y="25" width="1680" height="980" />
+    <state x="577" y="248" width="766" height="692" key="search.everywhere.popup" timestamp="1607994936119">
+      <screen x="0" y="25" width="1920" height="1010" />
     </state>
-    <state x="505" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1680.989@0.23.1680.989" timestamp="1598758654203" />
     <state x="505" y="241" width="670" height="671" key="search.everywhere.popup/0.25.1680.980@0.25.1680.980" timestamp="1606648826893" />
     <state x="505" y="241" width="670" height="671" key="search.everywhere.popup/0.25.1680.981@0.25.1680.981" timestamp="1605938994973" />
+    <state x="577" y="248" width="766" height="692" key="search.everywhere.popup/0.25.1920.1010@0.25.1920.1010" timestamp="1607994936119" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_gogo$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1606656119815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/daily" />
@@ -367,12 +361,14 @@
     <SUITE FILE_PATH="coverage/python_gogo$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1597457675412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_package/test_re" />
     <SUITE FILE_PATH="coverage/python_gogo$study.coverage" NAME="study Coverage Results" MODIFIED="1605576843013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package/test_re" />
     <SUITE FILE_PATH="coverage/python_gogo$017__1_.coverage" NAME="017字典推导式 (1) Coverage Results" MODIFIED="1607353593684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
+    <SUITE FILE_PATH="coverage/python_gogo$LRUCache.coverage" NAME="LRUCache Coverage Results" MODIFIED="1607996402319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geekbang/algorithm_beauty/06_linkedlist" />
     <SUITE FILE_PATH="coverage/python_gogo$009.coverage" NAME="009查找两字典的相同点 Coverage Results" MODIFIED="1600007992718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$0003.coverage" NAME="0003 Coverage Results" MODIFIED="1597245679398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$11_23.coverage" NAME="11_23 Coverage Results" MODIFIED="1606095839840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/daily" />
     <SUITE FILE_PATH="coverage/python_gogo$015.coverage" NAME="015通过某个字段将记录分组 Coverage Results" MODIFIED="1606316305005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
-    <SUITE FILE_PATH="coverage/python_gogo$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1607793027073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package/test_datetime" />
+    <SUITE FILE_PATH="coverage/python_gogo$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1607848078700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package/test_datetime" />
     <SUITE FILE_PATH="coverage/python_gogo$013.coverage" NAME="013通过某个关键字排序一个字典列表 Coverage Results" MODIFIED="1605196279693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
+    <SUITE FILE_PATH="coverage/python_gogo$018.coverage" NAME="018映射名称到序列元素 Coverage Results" MODIFIED="1608684661216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$010.coverage" NAME="010删除序列相同元素并保持顺序 Coverage Results" MODIFIED="1603158732689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$017.coverage" NAME="017字典推导式 Coverage Results" MODIFIED="1606904002936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/python_gogo$test_pillow.coverage" NAME="test_pillow Coverage Results" MODIFIED="1595571331944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_package/test_pil" />

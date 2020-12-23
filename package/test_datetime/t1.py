@@ -6,7 +6,7 @@ case1 = datetime.now()
 print(f'case1: {case1, type(case1)}')
 print(f'case1-1: {case1.year, case1.month, case1.day}')
 
-case2 = datetime.now().strftime('%Y%m%d%H%M%S%f')
+case2 = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 # strftime格式符 -> https://www.cnblogs.com/fwl8888/p/9635505.html
 print(f'case2: {case2, type(case2)}')
 
@@ -31,7 +31,7 @@ print('*' * 100)
 # 字符串时间转时间戳
 def time2stamp(t):
     time_array = time.strptime(t, '%Y-%m-%d %H:%M:%S')
-    print(type(time_array), time_array)
+    print(type(time_array), '->', time_array)
     timestamp = time.mktime(time_array)
     return timestamp
 
@@ -48,6 +48,6 @@ def stamp2time(timestamp):
 
 
 if __name__ == '__main__':
-    print(time2stamp('2020-12-10 23:34:30'))
-    print(get_now_stamp())
-    print(stamp2time(1607614470))
+    print('->', time2stamp('2020-12-10 23:34:30'))
+    print('->', get_now_stamp())
+    print('->', stamp2time(1607614470))
