@@ -4,9 +4,10 @@ from collections import namedtuple
 
 Subscriber = namedtuple('Subscriber', ['addr', 'joined'])
 sub = Subscriber('jonesy@example.com', '2012-10-19')
-print(sub)
-print(sub.addr)
-print(sub.joined)
+print(type(sub))
+print(f'sub: {sub}')
+print(f'sub.addr: {sub.addr}')
+print(f'sub.joined: {sub.joined}')
 
 print('*' * 100)
 

@@ -13,7 +13,8 @@ class LinkedStack:
     def __init__(self):
         self._top: Node = None
 
-    def push(self, value: int):
+    def push(self, value):
+        # 注意：是把新node作为self._top而不是插入到self._top后面
         new_node = Node(value)
         new_node._next = self._top
         self._top = new_node
@@ -23,6 +24,7 @@ class LinkedStack:
             value = self._top._data
             self._top = self._top._next
             return value
+        return False
 
     def __repr__(self):
         current = self._top
@@ -30,7 +32,7 @@ class LinkedStack:
         while current:
             nums.append(current._data)
             current = current._next
-        return ' '.join(f'{num} <-' for num in nums)
+        return ' '.join(f'{num}]' for num in nums)
 
 
 if __name__ == '__main__':
