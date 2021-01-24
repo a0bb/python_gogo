@@ -14,24 +14,23 @@ class LinkedQueue:
         self._head: Optional[Node] = None
         self._tail: Optional[Node] = None
 
-    def enqueue(self, value: str):
-        new_node = Node(value)
-        # 如果存在队尾，插入到队尾之后
+    def enqueue(self, item: str):
+        new_node = Node(item)
         if self._tail:
             self._tail._next = new_node
-        # 如果不存在队尾，插入到队首
         else:
             self._head = new_node
+
         self._tail = new_node
 
     def dequeue(self) -> Optional[str]:
-        if self._head:
-            value = self._head.data
-            self._head = self._head._next
-            # 如果没有self._head是空，则证明取出一个Node后，队列空了，那么需要把_tail值为空
-            if not self._head:
-                self._tail = None
-            return value
+        if not self._head:
+            return None
+        value = self._head.data
+        self._head = self._head._next
+        if not self._head:
+            self._tail = None
+        return value
 
     def __repr__(self):
         values = []
@@ -39,14 +38,16 @@ class LinkedQueue:
         while current:
             values.append(current.data)
             current = current._next
-        return '->'.join(v for v in values)
+        return '->'.join(values)
 
 
 if __name__ == '__main__':
-    l = LinkedQueue()
-    l.enqueue('a')
-    l.enqueue('b')
-    l.enqueue('c')
-    l.dequeue()
+    queue = LinkedQueue()
 
-    print(l)
+    for i in range(10):
+        queue.enqueue(str(i))
+    print(queue)
+
+    for i in range(4):
+        queue.dequeue()
+    print(queue)

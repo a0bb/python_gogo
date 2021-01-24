@@ -15,6 +15,7 @@ class ArrayQueue:
             if self._head == 0:
                 return False
             else:
+                # 如果没满，则进行数据搬移
                 for i in range(0, self._tail - self._head):
                     self._items[i] = self._items[i + self._head]
                 self._tail = self._tail - self._head
